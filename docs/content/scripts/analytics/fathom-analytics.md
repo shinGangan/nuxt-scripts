@@ -163,7 +163,7 @@ $script.then(({ trackGoal }) => {
 Loading Fathom Analytics through the `app.vue` when Nuxt is ready.
 
 ```vue [app.vue]
-<script setup>
+<script setup lang="ts">
 useScriptFathomAnalytics({
   site: 'YOUR_SITE_ID',
   scriptOptions: {
