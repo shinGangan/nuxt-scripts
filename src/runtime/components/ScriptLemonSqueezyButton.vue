@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import type { ElementScriptTrigger } from '../types'
 import { onMounted, ref, useElementScriptTrigger, useScriptLemonSqueezy } from '#imports'
 

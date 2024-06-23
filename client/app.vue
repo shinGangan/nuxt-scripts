@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import { onDevtoolsClientConnected } from '@nuxt/devtools-kit/iframe-client'
 import { devtools, getScriptSize, humanFriendlyTimestamp, reactive, ref, urlToOrigin } from '#imports'
 import { loadShiki } from '~/composables/shiki'

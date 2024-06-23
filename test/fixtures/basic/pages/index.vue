@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import { onNuxtReady, useScript } from '#imports'
 
 const { myScript } = useScript<{ myScript: (arg: string) => void }>('/myScript.js', {

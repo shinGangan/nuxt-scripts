@@ -1,4 +1,4 @@
-<script lang="ts" setup>
+<script setup lang="ts">
 import { useScript } from '#imports'
 
 const { myScript, $script } = useScript<{ myScript: (arg: string) => void }>('/myScript.js', {
